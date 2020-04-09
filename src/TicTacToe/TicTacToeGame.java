@@ -47,7 +47,6 @@ public class TicTacToeGame {
                 }
                 printBoard();
                 winner = checkWinner();
-                // ...
             } else {
 
             }

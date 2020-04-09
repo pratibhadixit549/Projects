@@ -54,7 +54,7 @@ public class TicTacToeGame {
         }
 
         if (winner.equalsIgnoreCase("draw")) {
-
+            System.out.println("It's a draw! Thanks for playing.");
         } else {
 
         }

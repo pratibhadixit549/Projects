@@ -38,11 +38,23 @@ public class TicTacToeGame {
                 continue;
             }
             if (board[numInput - 1].equals(String.valueOf(numInput))) {
-
+                board[numInput - 1] = turn;
+                if (turn.equals("X")) {
+                    turn = "O";
+                } else {
+                    turn = "X";
+                }
+                printBoard();
+                winner = checkWinner();
+                // ...
             } else {
 
             }
         }
+    }
+
+    private static String checkWinner() {
+        return "";
     }
 
     private static void printBoard() {

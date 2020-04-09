@@ -1,5 +1,6 @@
 package TicTacToe;
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
@@ -90,7 +91,11 @@ public class TicTacToeGame {
         }
 
         for (int i = 0; i < 9; i++) {
+            if (Arrays.asList(board).contains(String.valueOf(i + 1))) {
 
+            } else {
+
+            }
         }
         return "";
     }

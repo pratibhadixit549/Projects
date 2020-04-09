@@ -9,4 +9,8 @@ public class TicTacToeGame {
     static String turn = "X";
     String winner = null;
     Random generator = new Random();
+
+    public static void main(String[] args) {
+
+    }
 }

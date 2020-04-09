@@ -6,4 +6,6 @@ public class CoffeeMachineProcedure {
     final static Scanner scanner = new Scanner(System.in);
 
     private int waterInCoffeeMachine;
+    private int milkInCoffeeMachine;
+
 }

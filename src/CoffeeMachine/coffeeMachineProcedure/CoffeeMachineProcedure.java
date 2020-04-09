@@ -79,6 +79,7 @@ public class CoffeeMachineProcedure {
                 break;
             }
         }
+        ready();
     }
 
     private boolean isEnough(String type) {

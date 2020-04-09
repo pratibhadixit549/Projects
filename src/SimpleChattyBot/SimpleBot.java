@@ -10,6 +10,11 @@ public class SimpleBot {
         remindName();
         guessAge();
         count();
+        test();
+    }
+
+    private static void test() {
+
     }
 
     private static void count() {

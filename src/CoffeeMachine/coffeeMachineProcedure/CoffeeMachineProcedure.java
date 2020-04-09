@@ -46,7 +46,7 @@ public class CoffeeMachineProcedure {
 
         int waterLimit;
         int milkLimit;
-
+        int coffeeBeansLimit;
 
         return enough;
     }

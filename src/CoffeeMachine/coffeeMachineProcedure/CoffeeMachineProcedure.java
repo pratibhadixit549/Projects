@@ -45,6 +45,7 @@ public class CoffeeMachineProcedure {
         boolean enough = false;
 
         int waterLimit;
+        int milkLimit;
 
 
         return enough;

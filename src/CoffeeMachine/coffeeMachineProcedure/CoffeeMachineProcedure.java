@@ -44,6 +44,8 @@ public class CoffeeMachineProcedure {
             case "exit":
                 stop();
                 break;
+            default:
+                System.out.println("Unknown command");
         }
     }
 

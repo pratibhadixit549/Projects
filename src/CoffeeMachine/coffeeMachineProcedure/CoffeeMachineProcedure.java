@@ -40,7 +40,44 @@ public class CoffeeMachineProcedure {
         String choice = scanner.next();
         boolean enough = isEnough(choice);
         switch (choice) {
+            case "1": {//espresso
+                if (enough) {
+                    this.waterInCoffeeMachine -= 250;
+                    this.coffBeansInCoffeeMachine -= 16;
+                    this.disposableCupsInCoffeeMachine -= 1;
+                    this.moneyInCoffeeMachine += 4;
+                }
+                break;
+            }
+            case "2": {//latte
 
+                if (enough) {
+                    this.waterInCoffeeMachine -= 350;
+                    this.milkInCoffeeMachine -= 75;
+                    this.coffBeansInCoffeeMachine -= 20;
+                    this.disposableCupsInCoffeeMachine -= 1;
+                    this.moneyInCoffeeMachine += 7;
+                }
+                break;
+            }
+            case "3": {//cappucino
+                if (enough) {
+                    this.waterInCoffeeMachine -= 200;
+                    this.milkInCoffeeMachine -= 100;
+                    this.coffBeansInCoffeeMachine -= 12;
+                    this.disposableCupsInCoffeeMachine -= 1;
+                    this.moneyInCoffeeMachine += 6;
+                }
+                break;
+            }
+            case "break": {
+                break;
+            }
+            default: {
+                System.out.println("unknown buy state");
+                //
+                break;
+            }
         }
     }
 
@@ -89,6 +126,4 @@ public class CoffeeMachineProcedure {
 
         return enough;
     }
-
-
 }

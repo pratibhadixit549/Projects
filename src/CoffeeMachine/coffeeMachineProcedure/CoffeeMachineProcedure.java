@@ -27,6 +27,10 @@ public class CoffeeMachineProcedure {
     }
 
     private void processReadyCommand(String action) {
+        System.out.println();
+        switch (action) {
+
+        }
     }
 
 

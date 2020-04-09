@@ -71,7 +71,6 @@ public class CoffeeMachineProcedure {
                 return false;
             }
         }
-
         if (this.waterInCoffeeMachine < waterLimit) {
             System.out.println("Sorry, not enough water!");
         } else if (this.milkInCoffeeMachine < milkLimit) {

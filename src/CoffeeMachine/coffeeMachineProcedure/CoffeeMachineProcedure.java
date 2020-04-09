@@ -29,8 +29,13 @@ public class CoffeeMachineProcedure {
     private void processReadyCommand(String action) {
         System.out.println();
         switch (action) {
-
+            case "buy":
+                buy();
+                break;
         }
+    }
+
+    private void buy() {
     }
 
 

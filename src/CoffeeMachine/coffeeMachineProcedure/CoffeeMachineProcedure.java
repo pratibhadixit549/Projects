@@ -32,7 +32,13 @@ public class CoffeeMachineProcedure {
             case "buy":
                 buy();
                 break;
+            case "fill":
+                fill();
+                break;
         }
+    }
+
+    private void fill() {
     }
 
     private void buy() {

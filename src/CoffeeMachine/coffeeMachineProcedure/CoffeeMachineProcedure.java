@@ -46,6 +46,7 @@ public class CoffeeMachineProcedure {
                 break;
             default:
                 System.out.println("Unknown command");
+                break;
         }
     }
 

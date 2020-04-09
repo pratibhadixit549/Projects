@@ -9,6 +9,10 @@ public class SimpleBot {
         greet("Aid", "2018");
         remindName();
         guessAge();
+        count();
+    }
+
+    private static void count() {
     }
 
     private static void guessAge() {

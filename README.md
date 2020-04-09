@@ -38,3 +38,8 @@ Congratulations, have a nice day!
 ```
 
 --------------------------
+
+
+Coffee Machine
+--------------------------
+

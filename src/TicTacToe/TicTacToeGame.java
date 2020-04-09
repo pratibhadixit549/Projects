@@ -85,7 +85,7 @@ public class TicTacToeGame {
             if (line.equals("XXX")) {
                 return "X";
             } else if (line.equals("OOO")) {
-
+                return "O";
             }
         }
         return "";

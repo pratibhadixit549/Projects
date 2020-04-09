@@ -22,6 +22,12 @@ public class TicTacToeGame {
         System.out.println("Welcome to 2 Player Tic Tac Toe.");
         System.out.println("--------------------------------");
 
+        printBoard();
+
+
+    }
+
+    private static void printBoard() {
     }
 
     private static void populateEmptyBoard() {

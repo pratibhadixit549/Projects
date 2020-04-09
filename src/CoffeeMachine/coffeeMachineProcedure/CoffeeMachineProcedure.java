@@ -1,5 +1,7 @@
 package CoffeeMachine.coffeeMachineProcedure;
 
-public class CoffeeMachineProcedure {
+import java.util.Scanner;
 
+public class CoffeeMachineProcedure {
+    final static Scanner scanner = new Scanner(System.in);
 }

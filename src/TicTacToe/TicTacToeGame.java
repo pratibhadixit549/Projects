@@ -58,7 +58,6 @@ public class TicTacToeGame {
         } else {
             System.out.println("Congratulations! " + winner + "'s have won! Thanks for playing.");
         }
-        // ...
     }
 
     private static String checkWinner() {

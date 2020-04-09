@@ -48,6 +48,7 @@ public class CoffeeMachineProcedure {
                 System.out.println("Unknown command");
                 break;
         }
+        // ...
     }
 
     private void stop() {
@@ -178,6 +179,7 @@ public class CoffeeMachineProcedure {
             System.out.println("I have enough resources, making you a coffee!");
         }
 
+        // ...
         return enough;
     }
 }

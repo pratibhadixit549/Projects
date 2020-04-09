@@ -48,6 +48,7 @@ public class CoffeeMachineProcedure {
     }
 
     private void stop() {
+        System.exit(0);
     }
 
     private void printRemaining() {

@@ -51,6 +51,7 @@ public class CoffeeMachineProcedure {
         System.out.println(this.coffBeansInCoffeeMachine + " of coffee beans");
         System.out.println(this.disposableCupsInCoffeeMachine + " of disposable cups");
         System.out.println("$" + this.moneyInCoffeeMachine + " of money");
+        ready();
     }
 
     private void take() {

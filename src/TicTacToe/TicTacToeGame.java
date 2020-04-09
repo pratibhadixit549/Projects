@@ -37,8 +37,12 @@ public class TicTacToeGame {
                 System.out.println("Invalid input; re-enter slot number:");
                 continue;
             }
-        }
+            if (board[numInput - 1].equals(String.valueOf(numInput))) {
 
+            } else {
+
+            }
+        }
     }
 
     private static void printBoard() {

@@ -35,7 +35,6 @@ public class TicTacToeGame {
         System.out.println("|-----------|");
         System.out.println("| " + board[6] + " | " + board[7] + " | " + board[8] + " |");
         System.out.println("/---|---|---\\");
-        // ...
     }
 
     private static void populateEmptyBoard() {

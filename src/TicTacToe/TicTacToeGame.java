@@ -52,6 +52,12 @@ public class TicTacToeGame {
                 continue;
             }
         }
+
+        if (winner.equalsIgnoreCase("draw")) {
+
+        } else {
+
+        }
     }
 
     private static String checkWinner() {

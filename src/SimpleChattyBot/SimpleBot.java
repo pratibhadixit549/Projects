@@ -11,6 +11,8 @@ public class SimpleBot {
     }
 
     private static void remindName() {
+        String name = scanner.nextLine();
+        System.out.println("What a great name you have, " + name + "!");
     }
 
     private static void greet(String assintantName, String birthYear) {

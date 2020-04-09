@@ -7,6 +7,10 @@ public class SimpleBot {
 
     public static void main(String[] args) {
         greet("Aid", "2018");
+        remindName();
+    }
+
+    private static void remindName() {
     }
 
     private static void greet(String assintantName, String birthYear) {

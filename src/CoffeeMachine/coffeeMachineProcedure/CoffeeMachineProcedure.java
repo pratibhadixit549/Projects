@@ -43,6 +43,10 @@ public class CoffeeMachineProcedure {
 
     private boolean isEnough(String choice) {
         boolean enough = false;
+
+        int waterLimit;
+
+
         return enough;
     }
 

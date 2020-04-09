@@ -18,4 +18,8 @@ public class CoffeeMachineProcedure {
         this.disposableCupsInCoffeeMachine = disposableCupsInCoffeeMachine;
         this.moneyInCoffeeMachine = moneyInCoffeeMachine;
     }
+
+    public void ready() {
+
+    }
 }

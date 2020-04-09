@@ -82,6 +82,11 @@ public class TicTacToeGame {
                     line = board[2] + board[4] + board[6];
                     break;
             }
+            if (line.equals("XXX")) {
+
+            } else if (line.equals("OOO")) {
+
+            }
         }
         return "";
     }

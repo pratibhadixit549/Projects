@@ -36,6 +36,14 @@ public class CoffeeMachineProcedure {
     }
 
     private void buy() {
+        System.out.println("What do you eany to buy? 1 - espresso, 2 - latte, 3 - cappucino, back - to main menu: ");
+        String choice = scanner.next();
+        boolean enough = isEnough(choice);
+    }
+
+    private boolean isEnough(String choice) {
+        boolean enough = false;
+        return enough;
     }
 
 

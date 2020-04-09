@@ -34,7 +34,8 @@ public class TicTacToeGame {
                     continue;
                 }
             } catch (InputMismatchException e) {
-
+                System.out.println("Invalid input; re-enter slot number:");
+                continue;
             }
         }
 

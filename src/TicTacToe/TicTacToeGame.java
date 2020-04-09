@@ -13,5 +13,10 @@ public class TicTacToeGame {
     public static void main(String[] args) {
         for (int i = 0; i < 9; i++)
             scanner = new Scanner(System.in);
+        board = new String[9];
+        turn = "X";
+        String winner = null;
+
+
     }
 }

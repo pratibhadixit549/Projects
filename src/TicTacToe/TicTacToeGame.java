@@ -48,7 +48,8 @@ public class TicTacToeGame {
                 printBoard();
                 winner = checkWinner();
             } else {
-
+                System.out.println("Slot already taken; re-enter slot number:");
+                continue;
             }
         }
     }

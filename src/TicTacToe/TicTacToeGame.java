@@ -93,8 +93,8 @@ public class TicTacToeGame {
         for (int i = 0; i < 9; i++) {
             if (Arrays.asList(board).contains(String.valueOf(i + 1))) {
                 break;
-            } else {
-
+            } else if (i == 8) {
+                return "draw";
             }
         }
         return "";

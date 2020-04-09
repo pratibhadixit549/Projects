@@ -45,7 +45,12 @@ public class CoffeeMachineProcedure {
     }
 
     private void printRemaining() {
-
+        System.out.println("The coffee machine has:");
+        System.out.println(this.waterInCoffeeMachine + " of water");
+        System.out.println(this.milkInCoffeeMachine + " of milk");
+        System.out.println(this.coffBeansInCoffeeMachine + " of coffee beans");
+        System.out.println(this.disposableCupsInCoffeeMachine + " of disposable cups");
+        System.out.println("$" + this.moneyInCoffeeMachine + " of money");
     }
 
     private void take() {

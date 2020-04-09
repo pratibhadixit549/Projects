@@ -11,6 +11,7 @@ public class TicTacToeGame {
     Random generator = new Random();
 
     public static void main(String[] args) {
-
+        for (int i = 0; i < 9; i++)
+            scanner = new Scanner(System.in);
     }
 }

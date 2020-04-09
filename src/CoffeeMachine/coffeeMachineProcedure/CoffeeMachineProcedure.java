@@ -35,7 +35,14 @@ public class CoffeeMachineProcedure {
             case "fill":
                 fill();
                 break;
+            case "take":
+                take();
+                break;
         }
+    }
+
+    private void take() {
+
     }
 
     private void fill() {

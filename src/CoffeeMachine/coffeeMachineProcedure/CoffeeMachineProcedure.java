@@ -11,5 +11,11 @@ public class CoffeeMachineProcedure {
     private int disposableCupsInCoffeeMachine;
     private int moneyInCoffeeMachine;
 
-
+    public CoffeeMachineProcedure(int waterInCoffeeMachine, int milkInCoffeeMachine, int coffBeansInCoffeeMachine, int disposableCupsInCoffeeMachine, int moneyInCoffeeMachine) {
+        this.waterInCoffeeMachine = waterInCoffeeMachine;
+        this.milkInCoffeeMachine = milkInCoffeeMachine;
+        this.coffBeansInCoffeeMachine = coffBeansInCoffeeMachine;
+        this.disposableCupsInCoffeeMachine = disposableCupsInCoffeeMachine;
+        this.moneyInCoffeeMachine = moneyInCoffeeMachine;
+    }
 }

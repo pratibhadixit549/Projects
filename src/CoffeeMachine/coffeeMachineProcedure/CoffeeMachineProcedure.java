@@ -38,7 +38,14 @@ public class CoffeeMachineProcedure {
             case "take":
                 take();
                 break;
+            case "remaining":
+                printRemaining();
+                break;
         }
+    }
+
+    private void printRemaining() {
+
     }
 
     private void take() {

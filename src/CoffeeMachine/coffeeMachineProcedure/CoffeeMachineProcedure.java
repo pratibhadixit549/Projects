@@ -72,6 +72,19 @@ public class CoffeeMachineProcedure {
             }
         }
 
+        if (this.waterInCoffeeMachine < waterLimit) {
+            System.out.println("Sorry, not enough water!");
+        } else if (this.milkInCoffeeMachine < milkLimit) {
+            System.out.println("Sorry, not enough milk!");
+        } else if (this.coffBeansInCoffeeMachine < coffeeBeansLimit) {
+            System.out.println("Sorry, not enough coffee beans!");
+        } else if (this.disposableCupsInCoffeeMachine < 1) {
+            System.out.println("Sorry, not enough disposable cups!");
+        } else {
+            enough = true;
+            System.out.println("I have enough resources, making you a coffee!");
+        }
+
         return enough;
     }
 

@@ -45,7 +45,9 @@ Coffee Machine
 
 What can be better than a cup of coffee during a break? A coffee that you don't have to make yourself. It's enough to press a couple of buttons on the machine and you get a cup of energy; but first, we should teach the machine how to do it.
 
-In This project, you will see working of a coffee machine simulator. The machine works with typical products: coffee, milk, sugar, and plastic cups; if it runs out of something, it shows a notification.You can get three types of coffee: espresso, cappucino and latte. Since, nothing's for free, it also collects the money
+In this project, you will see working of a coffee machine simulator. The machine works with typical products: coffee, milk, sugar, and plastic cups; if it runs out of something, it shows a notification.You can get three types of coffee: espresso, cappucino and latte. Since, nothing's for free, it also collects the money
+
+Your Coffee Machine Simulator must work as:
 
 ```
 Write action (buy, fill, take, remaining, exit): remaining
@@ -68,6 +70,76 @@ What do you want to buy? 1 - espresso, 2 - latte, 3 - cappucino: 2
 Sorry, noy enough water!
 
 Write action (buy, fill, take, remaining, exit): exit
+```
+
+---------------------------
+
+
+Tic-Tac-Toe
+--------------------------
+
+Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also known as Noughts and crosses or Xs and Os. 
+
+A single mistake usually costs you the game, but thankfully it is simple enough that most players discover the best stratergy quickly.
+
+Your Tic-Tac-Toe will be played on console as:
+
+```
+Welcome to 2 Player Tic Tac Toe.
+--------------------------------
+/---|---|---\
+| 1 | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | 8 | 9 |
+/---|---|---\
+X's will play first. Enter a slot number to place X in:
+1
+/---|---|---\
+| X | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | 8 | 9 |
+/---|---|---\
+O's turn; enter a slot number to place O in:
+9
+/---|---|---\
+| X | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | 8 | O |
+/---|---|---\
+X's turn; enter a slot number to place X in:
+7
+/---|---|---\
+| X | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| X | 8 | O |
+/---|---|---\
+O's turn; enter a slot number to place O in:
+5
+/---|---|---\
+| X | 2 | 3 |
+|-----------|
+| 4 | O | 6 |
+|-----------|
+| X | 8 | O |
+/---|---|---\
+X's turn; enter a slot number to place X in:
+4
+/---|---|---\
+| X | 2 | 3 |
+|-----------|
+| X | O | 6 |
+|-----------|
+| X | 8 | O |
+/---|---|---\
+Congratulations! X's have won! Thanks for playing.
 ```
 
 ---------------------------

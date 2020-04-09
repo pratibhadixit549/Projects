@@ -41,12 +41,16 @@ public class CoffeeMachineProcedure {
         boolean enough = isEnough(choice);
     }
 
-    private boolean isEnough(String choice) {
+    private boolean isEnough(String type) {
         boolean enough = false;
 
         int waterLimit;
         int milkLimit;
         int coffeeBeansLimit;
+
+        switch (type) {
+
+        }
 
         return enough;
     }

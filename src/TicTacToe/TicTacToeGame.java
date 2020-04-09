@@ -28,7 +28,11 @@ public class TicTacToeGame {
         while (winner == null) {
             int numInput;
             try {
-
+                numInput = scanner.nextInt();
+                if (!(numInput > 0 && numInput <= 9)) {
+                    System.out.println("Invalid input; re-enter slot number:");
+                    continue;
+                }
             } catch (InputMismatchException e) {
 
             }

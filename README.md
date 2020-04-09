@@ -1,6 +1,7 @@
 # Projects
 
 Simple Chatty Bot
+-----------------------------
 
 **About**
 Here, in this is the easiest project.Creating a simple comsole chat cot will do wonders to guide ypu through the basics of coding and project making.

@@ -22,5 +22,9 @@ public class TicTacToeGame {
     }
 
     private static void populateEmptyBoard() {
+        for (int i = 0; i < 9; i++) {
+            board[i] = String.valueOf(i + 1);
+            // ...
+        }
     }
 }

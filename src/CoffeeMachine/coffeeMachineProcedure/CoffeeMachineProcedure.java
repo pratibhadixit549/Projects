@@ -9,6 +9,7 @@ public class CoffeeMachineProcedure {
     private int milkInCoffeeMachine;
     private int coffBeansInCoffeeMachine;
     private int disposableCupsInCoffeeMachine;
+    private int moneyInCoffeeMachine;
 
 
 }

@@ -42,7 +42,9 @@ public class CoffeeMachineProcedure {
     }
 
     private void take() {
-
+        System.out.println("I gave you $" + this.moneyInCoffeeMachine);
+        this.moneyInCoffeeMachine = 0;
+        ready();
     }
 
     private void fill() {

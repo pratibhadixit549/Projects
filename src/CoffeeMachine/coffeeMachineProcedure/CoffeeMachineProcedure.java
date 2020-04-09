@@ -49,7 +49,27 @@ public class CoffeeMachineProcedure {
         int coffeeBeansLimit;
 
         switch (type) {
-
+            case "1": {
+                waterLimit = 250;
+                milkLimit = 0;
+                coffeeBeansLimit = 16;
+                break;
+            }
+            case "2": {
+                waterLimit = 350;
+                milkLimit = 75;
+                coffeeBeansLimit = 20;
+                break;
+            }
+            case "3": {
+                waterLimit = 200;
+                milkLimit = 100;
+                coffeeBeansLimit = 12;
+                break;
+            }
+            default: {
+                return false;
+            }
         }
 
         return enough;

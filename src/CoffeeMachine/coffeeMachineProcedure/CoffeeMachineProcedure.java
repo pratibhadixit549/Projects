@@ -20,6 +20,10 @@ public class CoffeeMachineProcedure {
     }
 
     public void ready() {
-
+        System.out.println();
+        System.out.println("Write action (buy, fill, take, remaining, exit): ");
+        String action = scanner.next();
     }
+
+
 }

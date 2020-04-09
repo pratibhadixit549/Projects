@@ -17,6 +17,10 @@ public class TicTacToeGame {
         turn = "X";
         String winner = null;
 
+        populateEmptyBoard();
 
+    }
+
+    private static void populateEmptyBoard() {
     }
 }

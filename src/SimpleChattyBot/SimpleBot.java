@@ -2,6 +2,7 @@ package SimpleChattyBot;
 
 import java.util.Scanner;
 
+
 public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in);
 
@@ -11,6 +12,10 @@ public class SimpleBot {
         guessAge();
         count();
         test();
+        end();
+    }
+
+    private static void end() {
     }
 
     private static void test() {

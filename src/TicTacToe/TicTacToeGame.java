@@ -97,7 +97,9 @@ public class TicTacToeGame {
                 return "draw";
             }
         }
-        return "";
+
+        System.out.println(turn + "'s turn; enter a slot number to place " + turn + " in:");
+        return null;
     }
 
     private static void printBoard() {

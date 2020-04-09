@@ -39,6 +39,21 @@ public class CoffeeMachineProcedure {
     }
 
     private void fill() {
+        System.out.println("Write how many ml of water do you want to add:");
+        int waterAdded = scanner.nextInt();
+        System.out.println("Write how mnay ml of milk do you want to add:");
+        int milkAdded = scanner.nextInt();
+        System.out.println("Write how many grams of coffee beans do you want to add:");
+        int coffeeBeansAdded = scanner.nextInt();
+        System.out.println("Write how many cups of coffee do you want to add:");
+        int disposableCupsAdded = scanner.nextInt();
+
+        this.waterInCoffeeMachine += waterAdded;
+        this.milkInCoffeeMachine += milkAdded;
+        this.coffBeansInCoffeeMachine += coffeeBeansAdded;
+        this.disposableCupsInCoffeeMachine += disposableCupsAdded;
+
+        ready();
     }
 
     private void buy() {
